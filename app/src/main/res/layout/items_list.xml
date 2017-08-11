@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="#d7d4d4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tanggal"
+            android:textAlignment="viewStart"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shubuh"
+            android:textAlignment="viewStart"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Terbit"
+            android:textAlignment="viewStart"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dzuhur"
+            android:textAlignment="viewStart"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ashar"
+            android:textAlignment="viewStart"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Maghrib"
+            android:textAlignment="viewStart"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Isya"
+            android:textAlignment="viewStart"
+            android:padding="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textAlignment="viewStart"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textAlignment="viewStart"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textAlignment="viewStart"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textAlignment="viewStart"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textAlignment="viewStart"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textAlignment="viewStart"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textAlignment="viewStart"
+            android:padding="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_tanggal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="02"
+            android:textAlignment="textEnd"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/txt_shubuh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="21:00"
+            android:textAlignment="textEnd"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/txt_terbit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="21:00"
+            android:textAlignment="textEnd"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/txt_dzuhur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="21:00"
+            android:textAlignment="textEnd"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/txt_ashr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="21:00"
+            android:textAlignment="textEnd"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/txt_mgrib"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="21:00"
+            android:textAlignment="textEnd"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/txt_isya"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="21:00"
+            android:textAlignment="textEnd"
+            android:padding="10dp"/>
+    </LinearLayout>
+</LinearLayout>
